@@ -1,0 +1,1 @@
+his repository contains a Python script to fetch data from a Cisco router using the RESTCONF protocol. The script demonstrates how to authenticate and retrieve interface details (e.g., GigabitEthernet) using RESTCONF APIs and Python's requests library.
