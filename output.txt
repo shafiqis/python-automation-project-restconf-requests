@@ -1,0 +1,58 @@
+(myenv) shafiq@shafiq-virtual-machine:~/Desktop/shapython/shafiq$ python get_interface_data_by_restconf_requests_python_library.py 
+Sending GET request to https://192.168.96.133:443/restconf/data/Cisco-IOS-XE-native:native/interface
+
+Successfully fetched data from the router!
+
+Raw JSON Response:
+{
+  "Cisco-IOS-XE-native:interface": {
+    "GigabitEthernet": [
+      {
+        "name": "1",
+        "ip": {
+          "address": {
+            "dhcp": {}
+          }
+        },
+        "mop": {
+          "enabled": false,
+          "sysid": false
+        },
+        "Cisco-IOS-XE-ethernet:negotiation": {
+          "auto": true
+        }
+      },
+      {
+        "name": "2",
+        "mop": {
+          "enabled": false,
+          "sysid": false
+        },
+        "Cisco-IOS-XE-ethernet:negotiation": {
+          "auto": true
+        }
+      },
+      {
+        "name": "3",
+        "mop": {
+          "enabled": false,
+          "sysid": false
+        },
+        "Cisco-IOS-XE-ethernet:negotiation": {
+          "auto": true
+        }
+      },
+      {
+        "name": "4",
+        "mop": {
+          "enabled": false,
+          "sysid": false
+        },
+        "Cisco-IOS-XE-ethernet:negotiation": {
+          "auto": true
+        }
+      }
+    ]
+  }
+}
+(myenv) shafiq@shafiq-virtual-machine:~/Desktop/shapython/shafiq$ 
